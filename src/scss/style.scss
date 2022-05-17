@@ -1,0 +1,15 @@
+@import '_reset.scss';
+@import '_var.scss';
+@import '_mixin.scss';
+
+@import '_index.scss';
+
+html{
+    max-width: 1440px;
+}
+
+body{
+    font-family: $jost;
+    margin: 0 auto;
+    overflow-x: hidden;
+}

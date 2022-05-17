@@ -9,7 +9,8 @@
 	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
-    margin: 64px 165px;
+    margin: 64px auto;
+    width: 1111px;
 }
 
 .header_img_logo{
@@ -276,18 +277,22 @@
 .footer_section{
     position: relative;
     z-index: -1;
-    height: 393px;
-    width: 100vw;
+    padding-top: 100px;
+    width: auto;
     background-color: $black;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer_section_div{
     display: flex;
-	flex-direction: row;
+    flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: stretch;
+    width: 1111px;
+    margin: 50px auto;
 }
 
 .footer_img_logo{
@@ -328,3 +333,43 @@
     letter-spacing: 2px;
     color: $white;
 }
+.footer_section_contact{
+    padding-top: 50px;
+    margin: 0 auto;
+    background-color: $black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_section_deco_div{
+    margin: 0 auto;
+    width: 1111px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_section_contact_div{
+    color:$white;
+    width: 350px;
+    height: 78px;
+    text-align: left;
+}
+
+.footer_section_contact_div_h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer_section_contact_div_p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+}
+  

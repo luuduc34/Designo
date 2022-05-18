@@ -222,6 +222,8 @@
 }
 
 .footer_article{
+    position: relative;
+    z-index: 1;
     background-image: url(/src/img/deco_footer_top.png);
     margin: 0 auto -100px;
     display: grid;
@@ -275,8 +277,6 @@
 
 
 .footer_section{
-    position: relative;
-    z-index: -1;
     padding-top: 100px;
     width: auto;
     background-color: $black;
@@ -333,12 +333,18 @@
     letter-spacing: 2px;
     color: $white;
 }
+
 .footer_section_contact{
+    width: 1111px;
     padding-top: 50px;
     margin: 0 auto;
     background-color: $black;
     display: flex;
-    justify-content: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
 }
 
 .footer_section_deco_div{
@@ -353,6 +359,7 @@
     width: 350px;
     height: 78px;
     text-align: left;
+    padding-bottom: 20px;
 }
 
 .footer_section_contact_div_h4{
@@ -372,4 +379,20 @@
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
 }
-  
+
+.footer_nav_social_ul{
+    display:flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.fa{
+    color:$peach;
+    &:hover{
+        color:$lpeach;
+    }
+}
+
+.footer_div_backgroud_black{
+    background-color: $black;
+}

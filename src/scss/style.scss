@@ -1,19 +1,22 @@
-@import '_reset.scss';
-@import '_var.scss';
-@import '_mixin.scss';
+@import "_reset.scss";
+@import "_var.scss";
+@import "_mixin.scss";
 
-@import '_index.scss';
-@import '_locations.scss';
-@import 'contact.scss';
-@import '_webdesign.scss';
+@import "_index.scss";
+@import "_locations.scss";
+@import "contact.scss";
+@import "_webdesign.scss";
+
+@import "_index.scss";
+@import "_about.scss";
 
 /* 
 html{
     max-width: 1440px;
 } */
 
-body{
-    font-family: $jost;
-    margin: 0 auto;
-    overflow-x: hidden;
+body {
+	font-family: $jost;
+	margin: 0 auto;
+	overflow-x: hidden;
 }

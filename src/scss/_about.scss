@@ -1,0 +1,179 @@
+@import "./var";
+@import "./mixin";
+
+/*----------Article-about-us------------*/
+
+.about_main_article {
+	height: 480px;
+	width: 1111px;
+	margin: 0 auto 160px;
+	background: url(../img/about_us_background.png) center/cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.about_main_article_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 135px 90px 0px;
+	height: 210px;
+	width: 540px;
+}
+
+.about_main_article_section_h1 {
+	margin-bottom: 30px;
+	@include h1jm;
+	color: $white;
+}
+
+.about_main_article_section_p {
+	@include bodyjr;
+	color: $white;
+}
+
+.about_main_article_image {
+	width: 476px;
+	height: 480px;
+}
+
+.about_main_article_image_computers {
+	width: 476px;
+	height: 480px;
+	top: 155px;
+	left: 800px;
+}
+
+.about_main_img_deco_top {
+	position: absolute;
+	width: 1006px;
+	height: 594px;
+	left: 0px;
+	top: 475px;
+	z-index: -1;
+}
+
+/*----------Article-World-class-talent------------*/
+
+.about_second_article {
+	height: 640px;
+	width: 1111px;
+	margin: 0 auto 160px;
+	background: url(../img/world_class_talent_background.png) center/cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.about_second_article_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 154px 96px;
+}
+
+.about_second_article_section_h1 {
+	@include h1jm;
+	color: $peach;
+	margin-bottom: 45px;
+}
+
+.about_second_article_section_p_one {
+	@include bodyjr;
+	color: $dgray;
+	margin-bottom: 45px;
+}
+
+.about_second_article_section_p_two {
+	@include bodyjr;
+	color: $dgray;
+}
+
+/*----------Nav-Country------------*/
+
+.about_nav_country {
+	height: 364px;
+	width: 1110px;
+	margin: 0 auto;
+}
+
+.about_nav_country_ul {
+	height: 364px;
+	width: 1110px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about_nav_country_ul_li {
+	// width: 242px;
+	// height: 375px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about_nav_country_ul_li_h3 {
+	@include h3jm;
+	margin-bottom: 35px;
+}
+
+.about_nav_country_ul_li_img {
+	margin-bottom: 55px;
+}
+
+.about_nav_country_ul_li_btn {
+	@include btnred;
+	&:hover {
+		@include btnhover;
+	}
+}
+
+.about_main_img_deco_bottom {
+	position: absolute;
+	width: 1006px;
+	height: 594px;
+	left: 830px;
+	top: 1777px;
+	z-index: -1;
+}
+
+/*----------Article-The-real-deal------------*/
+
+.about_third_article {
+	height: 640px;
+	width: 1111px;
+	margin: 0 auto 160px;
+	background: url(../img/world_class_talent_background.png) center/cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 160px;
+}
+
+.about_third_article_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 154px 96px;
+}
+
+.about_third_article_section_h1 {
+	@include h1jm;
+	color: $peach;
+	margin-bottom: 45px;
+}
+
+.about_third_article_section_p_one {
+	@include bodyjr;
+	color: $dgray;
+	margin-bottom: 45px;
+}
+
+.about_third_article_section_p_two {
+	@include bodyjr;
+	color: $dgray;
+}

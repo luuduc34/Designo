@@ -5,6 +5,12 @@
 @import '_index.scss';
 @import '_locations.scss';
 @import 'contact.scss';
+@import '_webdesign.scss';
+
+/* 
+html{
+    max-width: 1440px;
+} */
 
 body{
     font-family: $jost;

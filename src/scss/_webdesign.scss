@@ -1,0 +1,116 @@
+@import '_var.scss';
+@import '_mixin.scss';
+
+.wd_bloc_main_section{
+    margin: 0 auto 160px;
+    padding-top: 64px;
+    width: 1111px;
+    height: 252px;
+    background-image: url(/src/img/wd-deco-top.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.wd_bloc_main_section_h1{
+    @include h1jm;
+    color: $white;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.wd_bloc_main_section_p{
+    @include bodyjr;
+    color: $white;
+    text-align: center;
+}
+
+.wd_bloc_main_article{
+    width: 1111px;
+    height: auto;
+    margin: 0 auto 160px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.wd_bloc_main_article_div{
+    width: 350px;
+    height: 525px;
+    border-radius: 15px;
+}
+
+.wd_bloc_main_article_div_div_img{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.wd_bloc_main_article_div_div_text{
+    background-color: #FDF3F0;
+    padding: 32px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.wd_bloc_main_article_div_div_text_h3{
+    @include h3jm;
+    color: $peach;
+    margin-bottom: 16px;
+    text-align: center
+}
+
+.wd_bloc_main_article_div_div_text_p{
+    @include bodyjr;
+    text-align: center;
+}
+
+.wd_bloc_main_nav{
+    width: 1111px;
+    margin: 0 auto 160px;
+}
+
+.wd_bloc_main_nav_ul{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.wd_bloc_main_nav_ul_li{
+    width: 541px;
+    height: 308px;
+    background-color: coral;
+    border-radius: 15px;
+}
+
+.wd_bloc_main_nav_ul_li_h2{
+    @include h2jm;
+    color: $white;
+    text-align: center;
+}
+
+.wd_bloc_main_nav_ul_li_h3{
+    @include h3jm;
+    color: $white;
+    text-align: center;
+}
+
+.wd_bloc_main_nav_ul_li-appd{
+    background-image: url(/src/img/wd-app-design.png);
+}
+
+.wd_bloc_main_nav_ul_li-grd{
+    background-image: url(/src/img/wd-graph-app.png);
+}
+
+.wd_bloc_main_img_deco_top{
+    height: 594px;
+    width: 1006px;
+    left: 0px;
+    top: 281px;
+    position: absolute;
+    z-index: -1;
+}

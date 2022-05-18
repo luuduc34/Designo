@@ -3,10 +3,8 @@
 @import '_mixin.scss';
 
 @import '_index.scss';
-/* 
-html{
-    max-width: 1440px;
-} */
+@import '_locations.scss';
+@import 'contact.scss';
 
 body{
     font-family: $jost;

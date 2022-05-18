@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -630,6 +632,208 @@ table {
 
 .footer_div_backgroud_black {
   background-color: #1D1C1E;
+}
+
+/*----------Color------------*/
+/*----------Font------------*/
+/*----------Color------------*/
+/*----------Font------------*/
+/*----------Article-about-us------------*/
+.about_main_article {
+  height: 480px;
+  width: 1111px;
+  margin: 0 auto 160px;
+  background: url(../img/about_us_background.png) center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about_main_article_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 135px 90px 0px;
+  height: 210px;
+  width: 540px;
+}
+
+.about_main_article_section_h1 {
+  margin-bottom: 30px;
+  font-family: "Jost", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 500;
+  color: white;
+}
+
+.about_main_article_section_p {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: white;
+}
+
+.about_main_article_image {
+  width: 476px;
+  height: 480px;
+}
+
+.about_main_article_image_computers {
+  width: 476px;
+  height: 480px;
+  top: 155px;
+  left: 800px;
+}
+
+.about_main_img_deco_top {
+  position: absolute;
+  width: 1006px;
+  height: 594px;
+  left: 0px;
+  top: 475px;
+  z-index: -1;
+}
+
+/*----------Article-World-class-talent------------*/
+.about_second_article {
+  height: 640px;
+  width: 1111px;
+  margin: 0 auto 160px;
+  background: url(../img/world_class_talent_background.png) center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about_second_article_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 154px 96px;
+}
+
+.about_second_article_section_h1 {
+  font-family: "Jost", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #e7816b;
+  margin-bottom: 45px;
+}
+
+.about_second_article_section_p_one {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333136;
+  margin-bottom: 45px;
+}
+
+.about_second_article_section_p_two {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333136;
+}
+
+/*----------Nav-Country------------*/
+.about_nav_country {
+  height: 364px;
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.about_nav_country_ul {
+  height: 364px;
+  width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_nav_country_ul_li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_nav_country_ul_li_h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.about_nav_country_ul_li_img {
+  margin-bottom: 55px;
+}
+
+.about_nav_country_ul_li_btn {
+  padding: 18px 24px;
+  border-radius: 8px;
+  background-color: #e7816b;
+  color: white;
+  text-transform: uppercase;
+}
+.about_nav_country_ul_li_btn:hover {
+  padding: 18px 24px;
+  border-radius: 8px;
+  background-color: #ffad9b;
+  color: white;
+  text-transform: uppercase;
 }
 
 /* 

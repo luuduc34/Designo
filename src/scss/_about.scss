@@ -131,3 +131,49 @@
 		@include btnhover;
 	}
 }
+
+.about_main_img_deco_bottom {
+	position: absolute;
+	width: 1006px;
+	height: 594px;
+	left: 830px;
+	top: 1777px;
+	z-index: -1;
+}
+
+/*----------Article-The-real-deal------------*/
+
+.about_third_article {
+	height: 640px;
+	width: 1111px;
+	margin: 0 auto 160px;
+	background: url(../img/world_class_talent_background.png) center/cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 160px;
+}
+
+.about_third_article_section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 154px 96px;
+}
+
+.about_third_article_section_h1 {
+	@include h1jm;
+	color: $peach;
+	margin-bottom: 45px;
+}
+
+.about_third_article_section_p_one {
+	@include bodyjr;
+	color: $dgray;
+	margin-bottom: 45px;
+}
+
+.about_third_article_section_p_two {
+	@include bodyjr;
+	color: $dgray;
+}

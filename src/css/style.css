@@ -836,6 +836,74 @@ table {
   text-transform: uppercase;
 }
 
+.about_main_img_deco_bottom {
+  position: absolute;
+  width: 1006px;
+  height: 594px;
+  left: 830px;
+  top: 1777px;
+  z-index: -1;
+}
+
+/*----------Article-The-real-deal------------*/
+.about_third_article {
+  height: 640px;
+  width: 1111px;
+  margin: 0 auto 160px;
+  background: url(../img/world_class_talent_background.png) center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 160px;
+}
+
+.about_third_article_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 154px 96px;
+}
+
+.about_third_article_section_h1 {
+  font-family: "Jost", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #e7816b;
+  margin-bottom: 45px;
+}
+
+.about_third_article_section_p_one {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333136;
+  margin-bottom: 45px;
+}
+
+.about_third_article_section_p_two {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333136;
+}
+
 /* 
 html{
     max-width: 1440px;

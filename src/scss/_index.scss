@@ -278,7 +278,7 @@
 
 .footer_section{
     padding-top: 100px;
-    width: auto;
+    min-width: 1111px;
     background-color: $black;
     display: flex;
     flex-direction: column;

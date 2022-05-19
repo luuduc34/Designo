@@ -114,6 +114,11 @@
     @include h3jm;
     color: $white;
     text-align: center;
+    &::after{
+        color: #E7816B;
+        font-weight: bold;
+        content: "  >";
+    }
 }
 
 .wd_bloc_main_nav_ul_li-appd{

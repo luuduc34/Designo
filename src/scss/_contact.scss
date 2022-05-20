@@ -107,13 +107,6 @@ input[type=text] {
 		@include btnhover;
 	}
 }
-article.footer_article{
-    display: none;
-}
-section.footer_section{
-    padding: 0;
-    margin-top: 160px;
-}
 
 @media screen and (max-width:769px) {
 header.bloc_header{

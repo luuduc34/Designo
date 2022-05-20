@@ -9,7 +9,11 @@ input[type=text] {
     box-sizing: border-box;
     border: none;
     color: #fff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    /* box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important; */
+    outline: none !important;
   }
   input[type=text]:hover {
     width: 100%;
@@ -19,12 +23,17 @@ input[type=text] {
     box-sizing: border-box;
     border: none;
     color: #fff;
-    border-bottom: 1px solid rgba(255, 255, 255);
+    border-bottom: 2px solid rgba(255, 255, 255);
+    /* box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important; */
+    outline: none !important;
   }
+  
   ::placeholder {
     color: rgba(255, 255, 255, 0.505);
   }
-  ::placeholder:hover {
+  :focus::placeholder {
     color: rgb(255, 255, 255);
   }
   input#message{
@@ -86,7 +95,7 @@ input[type=text] {
 .contact_nav_country {
 	height: 364px;
 	width: 1110px;
-	margin: 0 auto;
+	margin: 0 auto 160px;
 }
 
 .contact_nav_country_ul {
@@ -186,6 +195,9 @@ input[type=text] {
       ::placeholder {
         color: #fff;
         opacity: 0.5
+      }
+      :focus::placeholder {
+        color: rgb(255, 255, 255);
       }
       input#message{
           padding-bottom: 80px;

@@ -9,10 +9,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <link rel="stylesheet" href="./src/css/style.min.css">
     <title>Designo - Contact</title>
+    <meta name="description" content="Designo web site">
 </head>
 <body>
     <header class="bloc_header">
-        <a href="index.html"><img class="header_img_logo" src="./src/img/logo_header.png"></a>
+        <a href="index.html" title="homepage"><img class="header_img_logo" src="./src/img/logo_header.png"></a>
         <nav class="header_nav">
             <ul class="header_nav_ul">
                 <li class="header_nav_ul_li"><a class="header_nav_ul_li_a" href="about.html">OUR COMPANY</a> </li>
@@ -33,10 +34,10 @@
             <section class="main_contact_contain_form">
                 <form class="main_contact_contain_form_cont">      
                     <!-- <label class="main_contact_contain_form_cont_label" for="name">Name</label> -->
-                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="text" id="name" name="name" placeholder="Name" required="Can't be empty" oninvalid="this.setCustomValidity('Enter User Name Here')">
                     <!-- <hr> -->
                     <!-- <label class="main_contact_contain_form_cont_label" for="email">Email Adress</label> -->
-                    <input type="text" id="email" name="email" placeholder="Email Adress">
+                    <input type="text" id="email" name="email" placeholder="Email Adress" required="Can't be empty">
                     <!-- <hr> -->
                     <!-- <label class="main_contact_contain_form_cont_label" for="Phone">Phone</label> -->
                     <input type="text" id="phone" name="phone" placeholder="Phone">
@@ -70,14 +71,15 @@
     </main>
     
     <footer class="bloc_footer">
+        
         <section class="footer_section">
             <div class="footer_section_div">
-                <a href="index.html"><img class="footer_img_logo" src="./src/img/logo_footer.png"></a>
+                <img class="footer_img_logo" alt="logo Designo" src="./src/img/logo_footer.png">
                 <nav class="footer_nav">
                     <ul class="footer_nav_ul">
-                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" href="about.html">OUR COMPANY</a></li>
-                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" href="locations.html">LOCATIONS</a></li>
-                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" href="contact.html">CONTACT</a></li>
+                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" title="Designo about page" href="/about.html">OUR COMPANY</a></li>
+                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" title="Designo locations page" href="/locations.html">LOCATIONS</a></li>
+                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" title="Designo contact page" href="/contact.html">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
@@ -95,15 +97,22 @@
                     <h4 class="footer_section_contact_div_h4">P : +1 253-863-8967</h4>
                     <h4 class="footer_section_contact_div_h4">M : contact@designo.co</h4>
                 </div>
+
                 <nav class="footer_nav_social">
+
                     <ul class="footer_nav_social_ul">
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-facebook-official fa-1x" aria-hidden="true"></i></a></li>
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-youtube-play fa-1x" aria-hidden="true"></i></a></li>
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-pinterest fa-1x" aria-hidden="true"></i></a></li>
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
+
+                        <li class="footer_nav_social_ul_li"><a title="Designo facebook.com"  href="https://www.facebook.com/Designo"><i class="fa fa-facebook-official fa-1x" aria-hidden="true"></i></a></li>
+                        <li class="footer_nav_social_ul_li"><a title="Designo youtube.com"  href="https://www.youtube.com/Designo"><i class="fa fa-youtube-play fa-1x" aria-hidden="true"></i></a></li>
+                        <li class="footer_nav_social_ul_li"><a title="Designo twitter.com"  href="https://www.twitter.com/Designo"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
+                        <li class="footer_nav_social_ul_li"><a title="Designo pinterest.com"  href="https://www.pinterest.com/Designo"><i class="fa fa-pinterest fa-1x" aria-hidden="true"></i></a></li>
+                        <li class="footer_nav_social_ul_li"><a title="Designo instagram.com"  href="https://www.instagram.com/Designo"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
+
+
                     </ul>
+
                 </nav>
+
             </section>
         </div>
     </footer>

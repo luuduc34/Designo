@@ -9,30 +9,42 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <link rel="stylesheet" href="./src/css/style.min.css">
     <title>Designo - Locations</title>
+    <meta name="description" content="Designo web site">
 </head>
 <body>
     <header class="bloc_header">
-        <img class="header_img_logo" src="./src/img/logo_header.png">
+        <a href="index.html" title="designo homepage"><img class="header_img_logo" src="./src/img/logo_header.png" /></a>
         <nav class="header_nav">
             <ul class="header_nav_ul">
-                <li class="header_nav_ul_li"><a class="header_nav_ul_li_a" href="about.html">OUR COMPANY</a> </li>
-                <li class="header_nav_ul_li"><a class="header_nav_ul_li_a" href="about.html">LOCATIONS</a> </li>
-                <li class="header_nav_ul_li"><a class="header_nav_ul_li_a" href="about.html">CONTACT</a> </li>
+                <li class="header_nav_ul_li"><a class="header_nav_ul_li_a" href="about.html" title="designo about page">OUR COMPANY</a></li>
+                <li class="header_nav_ul_li"><a class="header_nav_ul_li_a" href="locations.html" title="designo locations page">LOCATIONS</a></li>
+                <li class="header_nav_ul_li"><a class="header_nav_ul_li_a" href="contact.html" title="designo contact page">CONTACT</a></li>
+            </ul>
+        </nav>
+        <nav class="header_nav_mobile">
+            <div class="toggle">
+                <img src="./src/img/logo_header.png" alt="logo designo" class="header_logo_mobile" />
+                <img src="./src/img/menu_burger_open.png" alt="menu-burger-open" class="menu-burger-open" />
+                <img src="./src/img/menu_burger_close.png" alt="menu-burger-close" class="menu-burger-close" />
+            </div>
+            <ul class="header_nav_mobile_ul">
+                <li class="header_nav_mobile_ul_li"><a class="header_nav_mobile_ul_li_a" href="about.html" title="designo about page">OUR COMPANY</a></li>
+                <li class="header_nav_mobile_ul_li"><a class="header_nav_mobile_ul_li_a" href="locations.html" itle="designo locations page">LOCATIONS</a></li>
+                <li class="header_nav_mobile_ul_li"><a class="header_nav_mobile_ul_li_a" href="contact.html" title="designo contact page">CONTACT</a></li>
             </ul>
         </nav>
     </header>
-
     <main class="bloc_main_locations">
         <div class="main_locations_container">
             <div class="main_locations_container_belgium">
                 <div class="main_locations_container_belgium_adress">
                     <h1 class="main_locations_container_belgium_adress_h1">Belgium</h1>
-                    <h3>Designo Central Office</h3><br>
+                    <h3 class="main_locations_container_belgium_adress_h3">Designo Central Office</h3><br>
                     <p class="main_locations_container_belgium_adress_p">386 Wellington Street<br>
                     1000 Brussels - Belgium</p>
                 </div>
                 <div class="main_locations_container_belgium_contact">
-                    <h3>Contact</h3><br>
+                    <h3 class="main_locations_container_belgium_contact_h3">Contact</h3><br>
                     <p class="main_locations_container_belgium_contact_p">P : +1 253-863-8967<br>
                     M : contact@designo.co</p>
                 </div>
@@ -43,12 +55,12 @@
             <div class="main_locations_container_australia">
                 <div class="main_locations_container_australia_adress">
                     <h1 class="main_locations_container_australia_adress_h1">Australia</h1>
-                    <h3>Designo AU Office</h3><br>
+                    <h3 class="main_locations_container_australia_adress_h3">Designo AU Office</h3><br>
                     <p class="main_locations_container_australia_adress_p">19 Balonne Street<br>
                     New South Wales 2443</p>
                 </div>
                 <div class="main_locations_container_australia_contact">
-                    <h3>Contact</h3><br>
+                    <h3 class="main_locations_container_australia_contact_h3">Contact</h3><br>
                     <p class="main_locations_container_australia_contact_p">P : (02) 6720 9092<br>
                     M : contact@designo.au</p>
                 </div>
@@ -59,12 +71,12 @@
             <div class="main_locations_container_uk">
                 <div class="main_locations_container_uk_adress">
                     <h1 class="main_locations_container_uk_adress_h1">United Kingdom</h1>
-                    <h3>Designo UK Office</h3><br>
+                    <h3 class="main_locations_container_uk_adress_h3">Designo UK Office</h3><br>
                     <p class="main_locations_container_uk_adress_p">13  Colorado Way<br>
                     Rhyd-y-fro SA8 9GA</p>
                 </div>
                 <div class="main_locations_container_uk_contact">
-                    <h3>Contact</h3><br>
+                    <h3 class="main_locations_container_uk_contact_h3">Contact</h3><br>
                     <p class="main_locations_container_uk_contact_p">P : 078 3115 1400<br>
                     M : contact@designo.uk</p>
                 </div>
@@ -73,25 +85,23 @@
                 <img class="main_locations_container_uk-map_img" src="/src/img/uk-map.png" alt="uk-map">
             </div>
           </div>
-    </main>
-    
+          <div class="clear"></div> 
+    </main>    
     <footer class="bloc_footer">
-
         <article class="footer_article">
             <h2 class="footer_article_h2">Let’s talk about your project</h2>
             <p class="footer_article_p">Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.
             </p>
-            <a class="footer_article_a" href="#">Get in touch</a>
+            <a class="footer_article_a" title="Designo Contacte page" href="/contact.html">Get in touch</a>
         </article>
-
         <section class="footer_section">
             <div class="footer_section_div">
-                <img class="footer_img_logo" src="./src/img/logo_footer.png">
+                <a href="index.html" title="designo homepage"><img class="footer_img_logo" alt="logo Designo" src="./src/img/logo_footer.png"></a>
                 <nav class="footer_nav">
                     <ul class="footer_nav_ul">
-                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" href="#">OUR COMPANY</a></li>
-                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" href="about.html">LOCATIONS</a></li>
-                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" href="about.html">CONTACT</a></li>
+                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" title="Designo about page" href="/about.html">OUR COMPANY</a></li>
+                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" title="Designo locations page" href="/locations.html">LOCATIONS</a></li>
+                        <li class="footer_nav_ul_li"><a class="footer_nav_ul_li_a" title="Designo contact page" href="/contact.html">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
@@ -109,25 +119,18 @@
                     <h4 class="footer_section_contact_div_h4">P : +1 253-863-8967</h4>
                     <h4 class="footer_section_contact_div_h4">M : contact@designo.co</h4>
                 </div>
-
                 <nav class="footer_nav_social">
-
                     <ul class="footer_nav_social_ul">
-
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-facebook-official fa-1x" aria-hidden="true"></i></a></li>
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-youtube-play fa-1x" aria-hidden="true"></i></a></li>
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-pinterest fa-1x" aria-hidden="true"></i></a></li>
-                        <li class="footer_nav_social_ul_li"><a href="#"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
-
-
+                        <li class="footer_nav_social_ul_li"><a title="Designo facebook.com"  href="https://www.facebook.com/Designo"><i class="fa fa-facebook-official fa-1x" aria-hidden="true"></i></a></li>
+                        <li class="footer_nav_social_ul_li"><a title="Designo youtube.com"  href="https://www.youtube.com/Designo"><i class="fa fa-youtube-play fa-1x" aria-hidden="true"></i></a></li>
+                        <li class="footer_nav_social_ul_li"><a title="Designo twitter.com"  href="https://www.twitter.com/Designo"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
+                        <li class="footer_nav_social_ul_li"><a title="Designo pinterest.com"  href="https://www.pinterest.com/Designo"><i class="fa fa-pinterest fa-1x" aria-hidden="true"></i></a></li>
+                        <li class="footer_nav_social_ul_li"><a title="Designo instagram.com"  href="https://www.instagram.com/Designo"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
                     </ul>
-
                 </nav>
-
             </section>
         </div>
     </footer>
-
+    <script src="app.js"></script>
 </body>
 </html>

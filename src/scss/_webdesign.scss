@@ -145,7 +145,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   
     .wd_bloc_main_section{
-        margin: 64px auto;
+        margin: 64px auto 120px;
         width: 90vw;
         height: 252px;
         background-image: url(/src/img/wd-deco-top-tablette.png);
@@ -237,6 +237,8 @@
 	    align-content: center;
     }
     
+    /*<!------------------Made with love by Arthur Lefevre lefevre.arthur98@gmail.com--------------------->*/
+
     .wd_bloc_main_article_div_div_text:hover{
         color: white;
         background-color: $peach;
@@ -454,12 +456,21 @@
     .wd_bloc_main_nav_ul_li_h2{
         @include h2jm;
         color: $white;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 1.399999976158142px;
         text-align: center;
+        margin-bottom: 11px;
     }
     
     .wd_bloc_main_nav_ul_li_h3{
         @include h3jm;
         color: $white;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 5px;
         text-align: center;
     }
     

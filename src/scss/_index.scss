@@ -270,8 +270,18 @@
 .footer_article_a{
     grid-area: footer_article_a;
     @include btnwhite;
+    padding: 28px 22px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1px;
     &:hover{
         @include btnhover;
+        padding: 28px 22px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 1px;
     }
 }
 
@@ -681,8 +691,7 @@
     
     .footer_article_h2{
         grid-area: footer_article_h2;
-        @include h2jm;
-        margin: 57px auto 20px;
+        margin: 57px auto 5px;
         color: $white;
         font-family: Jost;
         font-size: 40px;
@@ -699,17 +708,20 @@
         height: 78px;  
         width: 459px;
         justify-self: stretch; 
+        margin-left: 0px;
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
         text-align: center;
-        margin-left: 95px;
     }
     
     .footer_article_a{
         grid-area: footer_article_a;
         @include btnwhite;
-        padding: 28px 22px;
         &:hover{
             @include btnhover;
-            padding: 28px 22px;
         }
     }
     

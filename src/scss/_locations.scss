@@ -1,8 +1,8 @@
 @import "./var";
 @import "./mixin";
-h3{
-    font-weight: bold;
-}
+/* h3{
+    font-weight: 900;
+} */
 .main_locations_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -34,24 +34,28 @@ h3{
             height: 100%;
             border-radius: 15px;
             &_adress_h1{                
-                @include h1jm; 
-                font-family: $jost;
-                font-size: 48px;
-                line-height: 48px;
-                font-weight: 500;
+                @include h1jm;
                 color: $peach;                
                 text-align: left;
                 margin-bottom: 24px;
-            }
+            }            
             &_adress_p{
                 line-height: 24px;
             }
             &_adress{
                 margin-left: 100px;
+                &_h3{
+                    margin-bottom: 15px;
+                    font-weight: 600;
+                }
             }
             &_contact{
                 margin-top: 70px;
                 margin-left: 100px;
+                &_h3{
+                    margin-bottom: 15px;
+                    font-weight: 600;
+                }
             }            
             &_contact_p{
                 line-height: 24px;
@@ -81,11 +85,7 @@ h3{
             height: 100%;
             border-radius: 15px;
             &_adress_h1{
-                @include h1jm; 
-                font-family: $jost;
-                font-size: 48px;
-                line-height: 48px;
-                font-weight: 500;
+                @include h1jm;
                 color: $peach;                
                 text-align: left;
                 margin-bottom: 24px;
@@ -95,10 +95,18 @@ h3{
             }
             &_adress{
                 margin-left: 100px;
+                &_h3{
+                    margin-bottom: 15px;
+                    font-weight: 600;
+                }
             }
             &_contact{
                 margin-top: 70px;
-                margin-left: 100px;                
+                margin-left: 100px;
+                &_h3{
+                    margin-bottom: 15px;
+                    font-weight: 600;
+                }                
             }
             &_contact_p{
                 line-height: 24px;
@@ -127,24 +135,29 @@ h3{
             height: 100%;
             border-radius: 15px;
             &_adress_h1{
-                @include h1jm; 
-                font-family: $jost;
-                font-size: 48px;
-                line-height: 48px;
-                font-weight: 500;
+                @include h1jm;
                 color: $peach;                
                 text-align: left;
                 margin-bottom: 24px;
+                width: 200px;
             }
             &_adress_p{
                 line-height: 24px;
             }
             &_adress{
                 margin-left: 100px;
+                &_h3{
+                    margin-bottom: 15px;
+                    font-weight: 600;
+                }
             }
             &_contact{
-                margin-top: 70px;
+                margin-top: 115px;
                 margin-left: 100px;
+                &_h3{
+                    margin-bottom: 15px;
+                    font-weight: 600;
+                }
             }        
             &_contact_p{
                 line-height: 24px;
@@ -160,7 +173,10 @@ h3{
         }
 }
 
-@media  screen and (max-width: 769px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    .clear{
+        clear: both;
+    }
     header.bloc_header{
         display: flex;
         flex-direction: row;
@@ -169,18 +185,19 @@ h3{
         align-items: center;
         align-content: stretch;
         margin: 64px auto;
-        width: 689px;
+        width: 100%;
     }
     .main_locations_container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6,auto);
-        grid-auto-flow: row;        
+        grid-template-rows: 1fr;
+        grid-template-areas: '.';
+        grid-auto-flow: column;        
         justify-content: center; 
         align-content: center; 
         justify-items: center; 
         align-items: center;
-        max-width: 689px;
+        width: auto;
         margin: 0 auto 150px;
             &_belgium {
                 display: flex;
@@ -197,12 +214,9 @@ h3{
                 width: 689px;
                 height: 326px;
                 border-radius: 15px;
+                margin-bottom: 80px;
                 &_adress_h1{                
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
+                    @include h1jm;
                     color: $peach;                
                     text-align: left;
                     margin-bottom: 24px;
@@ -251,12 +265,9 @@ h3{
                 width: 689px;
                 height: 326px;
                 border-radius: 15px;
+                margin-bottom: 80px;
                 &_adress_h1{
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
+                    @include h1jm;
                     color: $peach;                
                     text-align: left;
                     margin-bottom: 24px;
@@ -278,7 +289,7 @@ h3{
             &_australia-map {
                 width: 689px;
                 height: 326px;
-                background-image: url(/src/img/b-map.png);                
+                background-image: url(/src/img/a-map.png);                
                 background-repeat: no-repeat;
                 grid-column: 1;
                 grid-row: 3;
@@ -305,11 +316,7 @@ h3{
                 height: 326px;
                 border-radius: 15px;
                 &_adress_h1{
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
+                    @include h1jm;
                     color: $peach;                
                     text-align: left;
                     margin-bottom: 24px;
@@ -321,7 +328,6 @@ h3{
                     margin-left: 100px;
                 }
                 &_contact{
-                    margin-top: 70px;
                     margin-left: 20px;
                 }        
                 &_contact_p{
@@ -331,7 +337,7 @@ h3{
             &_uk-map {
                 width: 689px;
                 height: 326px;
-                background-image: url(/src/img/b-map.png);                
+                background-image: url(/src/img/u-map.png);                
                 background-repeat: no-repeat;
                 grid-column: 1;
                 grid-row: 5;
@@ -348,12 +354,13 @@ h3{
     }
 }
 
-@media  screen and (max-width: 376px) {
+@media screen and (max-width: 767px) {
     .main_locations_container {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6,auto);
-        /* gap: 32px; */
+        grid-template-areas: '.';
+        gap: 0;
         grid-auto-flow: row;        
         justify-content: center; 
         align-content: center; 
@@ -373,15 +380,14 @@ h3{
                 grid-row: 2;
                 background-image: url(/src/img/location_background.png);
                 background-size: cover;
+                background-position: center;
                 background-repeat: no-repeat;
                 width: 375px;
                 height: 394px;
+                margin-bottom: 50px;
+                border-radius: 0;
                 &_adress_h1{                
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
+                    @include h1jm;
                     color: $peach;                
                     text-align: center;
                     margin-bottom: 24px;
@@ -408,6 +414,7 @@ h3{
                 &_img{
                     width: 100%;
                     height: 100%;
+                    border-radius: 0;
                 } 
             }
             &_australia {
@@ -422,15 +429,14 @@ h3{
                 align-content: center;
                 background-image: url(/src/img/location_background.png);
                 background-size: cover;
+                background-position: center;
                 background-repeat: no-repeat;
                 width: 375px;
                 height: 394px;
+                margin-bottom: 50px;
+                border-radius: 0;
                 &_adress_h1{
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
+                    @include h1jm;
                     color: $peach;                
                     text-align: center;
                     margin-bottom: 24px;
@@ -456,6 +462,7 @@ h3{
                 &_img{
                     width: 100%;
                     height: 100%;
+                    border-radius: 0;
                 } 
             }
             &_uk {
@@ -469,15 +476,13 @@ h3{
                 align-content: center;
                 background-image: url(/src/img/location_background.png);
                 background-size: cover;
+                background-position: center;
                 background-repeat: no-repeat;
                 width: 375px;
                 height: 394px;
+                border-radius: 0;
                 &_adress_h1{
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
+                    @include h1jm;
                     color: $peach;                
                     text-align: center;
                     margin: 0 20px 24px;
@@ -490,7 +495,6 @@ h3{
                     margin: auto;
                 }
                 &_contact{
-                    margin-top: 70px;
                     margin: auto;
                 }        
                 &_contact_p{
@@ -502,10 +506,10 @@ h3{
                 background-image: none;
                 grid-column: 1;
                 grid-row: 5;
-                &_img{
-                    opacity: 1;
+                &_img{                    
                     width: 100%;
                     height: 100%;
+                    border-radius: 0;
                 } 
             }
     }

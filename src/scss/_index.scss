@@ -33,6 +33,7 @@
 	&:hover {
 		text-decoration: underline;
 		text-decoration-color: $lgrey;
+		transition: 0.5s ease;
 	}
 }
 
@@ -94,6 +95,7 @@
 
 .index_main_article_section_a:hover {
 	@include btnhover;
+	transition: 0.5s ease;
 }
 
 .index_main_nav {

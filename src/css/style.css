@@ -2136,7 +2136,6 @@ body {
   .main_locations_container_belgium-map {
     width: 689px;
     height: 326px;
-    background-image: url(./src/img/b-map.png);
     background-repeat: no-repeat;
     grid-column: 1;
     grid-row: 1;
@@ -2200,7 +2199,6 @@ body {
   .main_locations_container_australia-map {
     width: 689px;
     height: 326px;
-    background-image: url(./src/img/a-map.png);
     background-repeat: no-repeat;
     grid-column: 1;
     grid-row: 3;
@@ -2262,7 +2260,6 @@ body {
   .main_locations_container_uk-map {
     width: 689px;
     height: 326px;
-    background-image: url(./src/img/u-map.png);
     background-repeat: no-repeat;
     grid-column: 1;
     grid-row: 5;

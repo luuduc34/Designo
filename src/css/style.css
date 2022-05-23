@@ -1863,7 +1863,7 @@ body {
   -ms-flex-line-pack: center;
       align-content: center;
   grid-area: belgium;
-  background-image: url(/src/img/location_background.png);
+  background-image: url(../img/location_background.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -1927,7 +1927,7 @@ body {
   -ms-flex-line-pack: center;
       align-content: center;
   grid-area: australia;
-  background-image: url(/src/img/location_background.png);
+  background-image: url(../img/location_background.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -1991,7 +1991,7 @@ body {
   -ms-flex-line-pack: center;
       align-content: center;
   grid-area: uk;
-  background-image: url(/src/img/location_background.png);
+  background-image: url(../img/location_background.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -2103,7 +2103,7 @@ body {
         align-content: center;
     grid-column: 1;
     grid-row: 2;
-    background-image: url(/src/img/location_background.png);
+    background-image: url(../img/location_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 689px;
@@ -2136,7 +2136,7 @@ body {
   .main_locations_container_belgium-map {
     width: 689px;
     height: 326px;
-    background-image: url(/src/img/b-map.png);
+    background-image: url(../img/b-map.png);
     background-repeat: no-repeat;
     grid-column: 1;
     grid-row: 1;
@@ -2167,7 +2167,7 @@ body {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    background-image: url(/src/img/location_background.png);
+    background-image: url(../img/location_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 689px;
@@ -2200,7 +2200,7 @@ body {
   .main_locations_container_australia-map {
     width: 689px;
     height: 326px;
-    background-image: url(/src/img/a-map.png);
+    background-image: url(../img/a-map.png);
     background-repeat: no-repeat;
     grid-column: 1;
     grid-row: 3;
@@ -2231,7 +2231,7 @@ body {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    background-image: url(/src/img/location_background.png);
+    background-image: url(../img/location_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 689px;
@@ -2262,7 +2262,7 @@ body {
   .main_locations_container_uk-map {
     width: 689px;
     height: 326px;
-    background-image: url(/src/img/u-map.png);
+    background-image: url(../img/u-map.png);
     background-repeat: no-repeat;
     grid-column: 1;
     grid-row: 5;
@@ -2319,7 +2319,7 @@ body {
         align-content: center;
     grid-column: 1;
     grid-row: 2;
-    background-image: url(/src/img/location_background.png);
+    background-image: url(../img/location_background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2382,7 +2382,7 @@ body {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    background-image: url(/src/img/location_background.png);
+    background-image: url(../img/location_background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2443,7 +2443,7 @@ body {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    background-image: url(/src/img/location_background.png);
+    background-image: url(../img/location_background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2614,7 +2614,7 @@ input#message {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  background-image: url(/src/img/about_us_background.png);
+  background-image: url(../img/about_us_background.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 1111px;
@@ -2932,7 +2932,7 @@ input#message {
             align-items: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    background-image: url(/src/img/about_us_background.png);
+    background-image: url(../img/about_us_background.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -3034,7 +3034,7 @@ input#message {
   padding-top: 64px;
   width: 1111px;
   height: 252px;
-  background-image: url(/src/img/wd-deco-top.png);
+  background-image: url(../img/wd-deco-top.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
@@ -3198,15 +3198,15 @@ input#message {
 }
 
 .wd_bloc_main_nav_ul_li-appd {
-  background-image: url(/src/img/wd-app-design.png);
+  background-image: url(../img/wd-app-design.png);
 }
 
 .wd_bloc_main_nav_ul_li-wppd {
-  background-image: url(/src/img/wd-graph-wppd.png);
+  background-image: url(../img/wd-graph-wppd.png);
 }
 
 .wd_bloc_main_nav_ul_li-grd {
-  background-image: url(/src/img/wd-graph-app.png);
+  background-image: url(../img/wd-graph-app.png);
 }
 
 .wd_bloc_main_img_deco_top {
@@ -3223,7 +3223,7 @@ input#message {
     margin: 64px auto 120px;
     width: 90vw;
     height: 252px;
-    background-image: url(/src/img/wd-deco-top-tablette.png);
+    background-image: url(../img/wd-deco-top-tablette.png);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -3424,19 +3424,19 @@ input#message {
   }
 
   .wd_bloc_main_nav_ul_li-appd {
-    background-image: url(/src/img/wd-app-design-tablette.png);
+    background-image: url(../img/wd-app-design-tablette.png);
     background-position: center;
     background-size: cover;
   }
 
   .wd_bloc_main_nav_ul_li-wppd {
-    background-image: url(/src/img/wd-graph-wppd-tabeltte.png);
+    background-image: url(../img/wd-graph-wppd-tabeltte.png);
     background-position: center;
     background-size: cover;
   }
 
   .wd_bloc_main_nav_ul_li-grd {
-    background-image: url(/src/img/wd-graph-app-tablette.png);
+    background-image: url(../img/wd-graph-app-tablette.png);
     background-position: center;
     background-size: cover;
   }
@@ -3456,7 +3456,7 @@ input#message {
     margin: 0 auto;
     width: 100vw;
     height: 320px;
-    background-image: url(/src/img/wd-deco-top-mobil.png);
+    background-image: url(../img/wd-deco-top-mobil.png);
     background-color: #e7816b;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3676,19 +3676,19 @@ input#message {
   }
 
   .wd_bloc_main_nav_ul_li-appd {
-    background-image: url(/src/img/wd-app-design-tablette.png);
+    background-image: url(../img/wd-app-design-tablette.png);
     background-position: center;
     background-size: cover;
   }
 
   .wd_bloc_main_nav_ul_li-wppd {
-    background-image: url(/src/img/wd-graph-wppd-tabeltte.png);
+    background-image: url(../img/wd-graph-wppd-tabeltte.png);
     background-position: center;
     background-size: cover;
   }
 
   .wd_bloc_main_nav_ul_li-grd {
-    background-image: url(/src/img/wd-graph-app-tablette.png);
+    background-image: url(../img/wd-graph-app-tablette.png);
     background-position: center;
     background-size: cover;
   }

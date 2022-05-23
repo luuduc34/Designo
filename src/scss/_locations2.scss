@@ -1,512 +1,509 @@
 @import "./var";
 @import "./mixin";
-h3{
-    font-weight: bold;
+h3 {
+	font-weight: bold;
 }
 .main_locations_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 32px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "belgium belgium belgium-map"
-      "australia-map australia australia"
-      "uk uk uk-map";
-    justify-content: center; 
-    align-content: center; 
-    justify-items: center; 
-    align-items: center;
-    width: 1111px;
-    margin: 0 auto 150px;
-        &_belgium {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: flex-start;
-            align-items: center;
-            align-content: center;
-            grid-area: belgium;
-            background-image: url(/src/img/location_background.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 100%;
-            border-radius: 15px;
-            &_adress_h1{                
-                @include h1jm; 
-                font-family: $jost;
-                font-size: 48px;
-                line-height: 48px;
-                font-weight: 500;
-                color: $peach;                
-                text-align: left;
-                margin-bottom: 24px;
-            }
-            &_adress_p{
-                line-height: 24px;
-            }
-            &_adress{
-                margin-left: 100px;
-            }
-            &_contact{
-                margin-top: 70px;
-                margin-left: 100px;
-            }            
-            &_contact_p{
-                line-height: 24px;
-            }
-            
-        }
-        &_belgium-map {
-            grid-area: belgium-map;
-            &_img{
-                width: 100%;
-                height: 100%;
-                border-radius: 7%;
-            } 
-        }
-        &_australia {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: flex-start;
-            align-items: center;
-            align-content: center;
-            grid-area: australia;
-            background-image: url(/src/img/location_background.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 100%;
-            border-radius: 15px;
-            &_adress_h1{
-                @include h1jm; 
-                font-family: $jost;
-                font-size: 48px;
-                line-height: 48px;
-                font-weight: 500;
-                color: $peach;                
-                text-align: left;
-                margin-bottom: 24px;
-            }
-            &_adress_p{
-                line-height: 24px;
-            }
-            &_adress{
-                margin-left: 100px;
-            }
-            &_contact{
-                margin-top: 70px;
-                margin-left: 100px;                
-            }
-            &_contact_p{
-                line-height: 24px;
-            }
-        }
-        &_australia-map {
-            grid-area: australia-map;
-            &_img{
-                width: 100%;
-                height: 100%;
-                border-radius: 7%;
-            } 
-        }
-        &_uk {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: flex-start;
-            align-items: center;
-            align-content: center;
-            grid-area: uk;
-            background-image: url(/src/img/location_background.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            width: 100%;
-            height: 100%;
-            border-radius: 15px;
-            &_adress_h1{
-                @include h1jm; 
-                font-family: $jost;
-                font-size: 48px;
-                line-height: 48px;
-                font-weight: 500;
-                color: $peach;                
-                text-align: left;
-                margin-bottom: 24px;
-            }
-            &_adress_p{
-                line-height: 24px;
-            }
-            &_adress{
-                margin-left: 100px;
-            }
-            &_contact{
-                margin-top: 70px;
-                margin-left: 100px;
-            }        
-            &_contact_p{
-                line-height: 24px;
-            }
-        }
-        &_uk-map {
-            grid-area: uk-map;
-            &_img{
-                width: 100%;
-                height: 100%;
-                border-radius: 7%;
-            } 
-        }
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 32px;
+	grid-auto-flow: row;
+	grid-template-areas:
+		"belgium belgium belgium-map"
+		"australia-map australia australia"
+		"uk uk uk-map";
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	width: 1111px;
+	margin: 0 auto 150px;
+	&_belgium {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
+		grid-area: belgium;
+		background-image: url(../img/location_background.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		border-radius: 15px;
+		&_adress_h1 {
+			@include h1jm;
+			font-family: $jost;
+			font-size: 48px;
+			line-height: 48px;
+			font-weight: 500;
+			color: $peach;
+			text-align: left;
+			margin-bottom: 24px;
+		}
+		&_adress_p {
+			line-height: 24px;
+		}
+		&_adress {
+			margin-left: 100px;
+		}
+		&_contact {
+			margin-top: 70px;
+			margin-left: 100px;
+		}
+		&_contact_p {
+			line-height: 24px;
+		}
+	}
+	&_belgium-map {
+		grid-area: belgium-map;
+		&_img {
+			width: 100%;
+			height: 100%;
+			border-radius: 7%;
+		}
+	}
+	&_australia {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
+		grid-area: australia;
+		background-image: url(../img/location_background.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		border-radius: 15px;
+		&_adress_h1 {
+			@include h1jm;
+			font-family: $jost;
+			font-size: 48px;
+			line-height: 48px;
+			font-weight: 500;
+			color: $peach;
+			text-align: left;
+			margin-bottom: 24px;
+		}
+		&_adress_p {
+			line-height: 24px;
+		}
+		&_adress {
+			margin-left: 100px;
+		}
+		&_contact {
+			margin-top: 70px;
+			margin-left: 100px;
+		}
+		&_contact_p {
+			line-height: 24px;
+		}
+	}
+	&_australia-map {
+		grid-area: australia-map;
+		&_img {
+			width: 100%;
+			height: 100%;
+			border-radius: 7%;
+		}
+	}
+	&_uk {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
+		grid-area: uk;
+		background-image: url(../img/location_background.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+		border-radius: 15px;
+		&_adress_h1 {
+			@include h1jm;
+			font-family: $jost;
+			font-size: 48px;
+			line-height: 48px;
+			font-weight: 500;
+			color: $peach;
+			text-align: left;
+			margin-bottom: 24px;
+		}
+		&_adress_p {
+			line-height: 24px;
+		}
+		&_adress {
+			margin-left: 100px;
+		}
+		&_contact {
+			margin-top: 70px;
+			margin-left: 100px;
+		}
+		&_contact_p {
+			line-height: 24px;
+		}
+	}
+	&_uk-map {
+		grid-area: uk-map;
+		&_img {
+			width: 100%;
+			height: 100%;
+			border-radius: 7%;
+		}
+	}
 }
 
-@media  screen and (max-width: 769px) {
-    header.bloc_header{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        align-content: stretch;
-        margin: 64px auto;
-        width: 689px;
-    }
-    .main_locations_container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6,auto);
-        grid-auto-flow: row;        
-        justify-content: center; 
-        align-content: center; 
-        justify-items: center; 
-        align-items: center;
-        max-width: 689px;
-        margin: 0 auto 150px;
-            &_belgium {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                grid-column: 1;
-                grid-row: 2;
-                background-image: url(/src/img/location_background.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 689px;
-                height: 326px;
-                border-radius: 15px;
-                &_adress_h1{                
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
-                    color: $peach;                
-                    text-align: left;
-                    margin-bottom: 24px;
-                }
-                &_adress_p{
-                    line-height: 24px;
-                }
-                &_adress{
-                    margin-left: 100px;
-                }
-                &_contact{
-                    margin-top: 70px;
-                    margin-left: 100px;
-                }            
-                &_contact_p{
-                    line-height: 24px;
-                }
-                
-            }
-            &_belgium-map {
-                width: 689px;
-                height: 326px;
-                background-image: url(/src/img/b-map.png);                
-                background-repeat: no-repeat;
-                grid-column: 1;
-                grid-row: 1;
-                &_img{
-                    opacity: 0;
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 7%;
-                } 
-            }
-            &_australia {
-                grid-column: 1;
-                grid-row: 4;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                background-image: url(/src/img/location_background.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 689px;
-                height: 326px;
-                border-radius: 15px;
-                &_adress_h1{
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
-                    color: $peach;                
-                    text-align: left;
-                    margin-bottom: 24px;
-                }
-                &_adress_p{
-                    line-height: 24px;
-                }
-                &_adress{
-                    margin-left: 100px;
-                }
-                &_contact{
-                    margin-top: 70px;
-                    margin-left: 100px;                
-                }
-                &_contact_p{
-                    line-height: 24px;
-                }
-            }
-            &_australia-map {
-                width: 689px;
-                height: 326px;
-                background-image: url(/src/img/b-map.png);                
-                background-repeat: no-repeat;
-                grid-column: 1;
-                grid-row: 3;
-                &_img{
-                    opacity: 0;
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 7%;
-                } 
-            }
-            &_uk {
-                grid-column: 1;
-                grid-row: 6;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: nowrap;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                background-image: url(/src/img/location_background.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 689px;
-                height: 326px;
-                border-radius: 15px;
-                &_adress_h1{
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
-                    color: $peach;                
-                    text-align: left;
-                    margin-bottom: 24px;
-                }
-                &_adress_p{
-                    line-height: 24px;
-                }
-                &_adress{
-                    margin-left: 100px;
-                }
-                &_contact{
-                    margin-top: 70px;
-                    margin-left: 20px;
-                }        
-                &_contact_p{
-                    line-height: 24px;
-                }
-            }
-            &_uk-map {
-                width: 689px;
-                height: 326px;
-                background-image: url(/src/img/b-map.png);                
-                background-repeat: no-repeat;
-                grid-column: 1;
-                grid-row: 5;
-                &_img{
-                    opacity: 0;
-                    width: 100%;
-                    height: 100%;
-                    border-radius: 7%;
-                } 
-            }
-    }
-    .main_locations_container_uk_adress_h1{
-        width: 250px;
-    }
+@media screen and (max-width: 769px) {
+	header.bloc_header {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		align-content: stretch;
+		margin: 64px auto;
+		width: 689px;
+	}
+	.main_locations_container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, auto);
+		grid-auto-flow: row;
+		justify-content: center;
+		align-content: center;
+		justify-items: center;
+		align-items: center;
+		max-width: 689px;
+		margin: 0 auto 150px;
+		&_belgium {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			grid-column: 1;
+			grid-row: 2;
+			background-image: url(../img/location_background.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 689px;
+			height: 326px;
+			border-radius: 15px;
+			&_adress_h1 {
+				@include h1jm;
+				font-family: $jost;
+				font-size: 48px;
+				line-height: 48px;
+				font-weight: 500;
+				color: $peach;
+				text-align: left;
+				margin-bottom: 24px;
+			}
+			&_adress_p {
+				line-height: 24px;
+			}
+			&_adress {
+				margin-left: 100px;
+			}
+			&_contact {
+				margin-top: 70px;
+				margin-left: 100px;
+			}
+			&_contact_p {
+				line-height: 24px;
+			}
+		}
+		&_belgium-map {
+			width: 689px;
+			height: 326px;
+			background-image: url(../img/b-map.png);
+			background-repeat: no-repeat;
+			grid-column: 1;
+			grid-row: 1;
+			&_img {
+				opacity: 0;
+				width: 100%;
+				height: 100%;
+				border-radius: 7%;
+			}
+		}
+		&_australia {
+			grid-column: 1;
+			grid-row: 4;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			background-image: url(../img/location_background.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 689px;
+			height: 326px;
+			border-radius: 15px;
+			&_adress_h1 {
+				@include h1jm;
+				font-family: $jost;
+				font-size: 48px;
+				line-height: 48px;
+				font-weight: 500;
+				color: $peach;
+				text-align: left;
+				margin-bottom: 24px;
+			}
+			&_adress_p {
+				line-height: 24px;
+			}
+			&_adress {
+				margin-left: 100px;
+			}
+			&_contact {
+				margin-top: 70px;
+				margin-left: 100px;
+			}
+			&_contact_p {
+				line-height: 24px;
+			}
+		}
+		&_australia-map {
+			width: 689px;
+			height: 326px;
+			background-image: url(../img/b-map.png);
+			background-repeat: no-repeat;
+			grid-column: 1;
+			grid-row: 3;
+			&_img {
+				opacity: 0;
+				width: 100%;
+				height: 100%;
+				border-radius: 7%;
+			}
+		}
+		&_uk {
+			grid-column: 1;
+			grid-row: 6;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			background-image: url(../img/location_background.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 689px;
+			height: 326px;
+			border-radius: 15px;
+			&_adress_h1 {
+				@include h1jm;
+				font-family: $jost;
+				font-size: 48px;
+				line-height: 48px;
+				font-weight: 500;
+				color: $peach;
+				text-align: left;
+				margin-bottom: 24px;
+			}
+			&_adress_p {
+				line-height: 24px;
+			}
+			&_adress {
+				margin-left: 100px;
+			}
+			&_contact {
+				margin-top: 70px;
+				margin-left: 20px;
+			}
+			&_contact_p {
+				line-height: 24px;
+			}
+		}
+		&_uk-map {
+			width: 689px;
+			height: 326px;
+			background-image: url(../img/b-map.png);
+			background-repeat: no-repeat;
+			grid-column: 1;
+			grid-row: 5;
+			&_img {
+				opacity: 0;
+				width: 100%;
+				height: 100%;
+				border-radius: 7%;
+			}
+		}
+	}
+	.main_locations_container_uk_adress_h1 {
+		width: 250px;
+	}
 }
 
-@media  screen and (max-width: 376px) {
-    .main_locations_container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6,auto);
-        /* gap: 32px; */
-        grid-auto-flow: row;        
-        justify-content: center; 
-        align-content: center; 
-        justify-items: center; 
-        align-items: center;
-        max-width: 375px;
-        margin: 0 auto 150px;
-            &_belgium {
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                grid-column: 1;
-                grid-row: 2;
-                background-image: url(/src/img/location_background.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 375px;
-                height: 394px;
-                &_adress_h1{                
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
-                    color: $peach;                
-                    text-align: center;
-                    margin-bottom: 24px;
-                }
-                &_adress_p{
-                    margin-bottom: 20px;
-                    line-height: 24px;
-                }
-                &_adress{
-                    margin: auto;
-                }
-                &_contact{
-                    margin: auto;
-                }            
-                &_contact_p{
-                    line-height: 24px;
-                }
-                
-            }
-            &_belgium-map {
-                width: 375px;
-                grid-column: 1;
-                grid-row: 1;
-                &_img{
-                    width: 100%;
-                    height: 100%;
-                } 
-            }
-            &_australia {
-                text-align: center;
-                grid-column: 1;
-                grid-row: 4;
-                display: flex;
-                flex-direction: column;
-                flex-wrap: nowrap;
-                justify-content: flex-start;
-                align-items: center;
-                align-content: center;
-                background-image: url(/src/img/location_background.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 375px;
-                height: 394px;
-                &_adress_h1{
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
-                    color: $peach;                
-                    text-align: center;
-                    margin-bottom: 24px;
-                }
-                &_adress_p{
-                    margin-bottom: 20px;
-                    line-height: 24px;
-                }
-                &_adress{
-                    margin: auto;
-                }
-                &_contact{
-                    margin: auto;                
-                }
-                &_contact_p{
-                    line-height: 24px;
-                }
-            }
-            &_australia-map {
-                width: 375px;
-                grid-column: 1;
-                grid-row: 3;
-                &_img{
-                    width: 100%;
-                    height: 100%;
-                } 
-            }
-            &_uk {
-                text-align: center;
-                grid-column: 1;
-                grid-row: 6;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                align-content: center;
-                background-image: url(/src/img/location_background.png);
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 375px;
-                height: 394px;
-                &_adress_h1{
-                    @include h1jm; 
-                    font-family: $jost;
-                    font-size: 48px;
-                    line-height: 48px;
-                    font-weight: 500;
-                    color: $peach;                
-                    text-align: center;
-                    margin: 0 20px 24px;
-                }
-                &_adress_p{
-                    margin-bottom: 20px;
-                    line-height: 24px;
-                }
-                &_adress{
-                    margin: auto;
-                }
-                &_contact{
-                    margin-top: 70px;
-                    margin: auto;
-                }        
-                &_contact_p{
-                    line-height: 24px;
-                }
-            }
-            &_uk-map {
-                width: 375px;
-                background-image: none;
-                grid-column: 1;
-                grid-row: 5;
-                &_img{
-                    opacity: 1;
-                    width: 100%;
-                    height: 100%;
-                } 
-            }
-    }
+@media screen and (max-width: 376px) {
+	.main_locations_container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6, auto);
+		/* gap: 32px; */
+		grid-auto-flow: row;
+		justify-content: center;
+		align-content: center;
+		justify-items: center;
+		align-items: center;
+		max-width: 375px;
+		margin: 0 auto 150px;
+		&_belgium {
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			grid-column: 1;
+			grid-row: 2;
+			background-image: url(../img/location_background.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 375px;
+			height: 394px;
+			&_adress_h1 {
+				@include h1jm;
+				font-family: $jost;
+				font-size: 48px;
+				line-height: 48px;
+				font-weight: 500;
+				color: $peach;
+				text-align: center;
+				margin-bottom: 24px;
+			}
+			&_adress_p {
+				margin-bottom: 20px;
+				line-height: 24px;
+			}
+			&_adress {
+				margin: auto;
+			}
+			&_contact {
+				margin: auto;
+			}
+			&_contact_p {
+				line-height: 24px;
+			}
+		}
+		&_belgium-map {
+			width: 375px;
+			grid-column: 1;
+			grid-row: 1;
+			&_img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&_australia {
+			text-align: center;
+			grid-column: 1;
+			grid-row: 4;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			justify-content: flex-start;
+			align-items: center;
+			align-content: center;
+			background-image: url(../img/location_background.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 375px;
+			height: 394px;
+			&_adress_h1 {
+				@include h1jm;
+				font-family: $jost;
+				font-size: 48px;
+				line-height: 48px;
+				font-weight: 500;
+				color: $peach;
+				text-align: center;
+				margin-bottom: 24px;
+			}
+			&_adress_p {
+				margin-bottom: 20px;
+				line-height: 24px;
+			}
+			&_adress {
+				margin: auto;
+			}
+			&_contact {
+				margin: auto;
+			}
+			&_contact_p {
+				line-height: 24px;
+			}
+		}
+		&_australia-map {
+			width: 375px;
+			grid-column: 1;
+			grid-row: 3;
+			&_img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&_uk {
+			text-align: center;
+			grid-column: 1;
+			grid-row: 6;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+			background-image: url(../img/location_background.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			width: 375px;
+			height: 394px;
+			&_adress_h1 {
+				@include h1jm;
+				font-family: $jost;
+				font-size: 48px;
+				line-height: 48px;
+				font-weight: 500;
+				color: $peach;
+				text-align: center;
+				margin: 0 20px 24px;
+			}
+			&_adress_p {
+				margin-bottom: 20px;
+				line-height: 24px;
+			}
+			&_adress {
+				margin: auto;
+			}
+			&_contact {
+				margin-top: 70px;
+				margin: auto;
+			}
+			&_contact_p {
+				line-height: 24px;
+			}
+		}
+		&_uk-map {
+			width: 375px;
+			background-image: none;
+			grid-column: 1;
+			grid-row: 5;
+			&_img {
+				opacity: 1;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
 }

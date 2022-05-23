@@ -189,7 +189,7 @@ table {
   height: 640px;
   width: 1111px;
   border-radius: 15px;
-  background-image: url(/src/img/article_index.png);
+  background-image: url(../img/article_index.png);
   background-position: center;
   margin: 0 auto 160px;
   display: -webkit-box;
@@ -269,7 +269,7 @@ table {
 
 .index_main_nav_ul_li-WD {
   grid-area: index_main_nav_ul_li-WD;
-  background-image: url(/src/img/web_design_index.png);
+  background-image: url(../img/web_design_index.png);
   height: 640px;
   width: 541px;
   background-position: center;
@@ -278,7 +278,7 @@ table {
 
 .index_main_nav_ul_li-AD {
   grid-area: index_main_nav_ul_li-AD;
-  background-image: url(/src/img/app_web_index.png);
+  background-image: url(../img/app_web_index.png);
   height: 308px;
   width: 541px;
   background-position: center;
@@ -287,7 +287,7 @@ table {
 
 .index_main_nav_ul_li-GD {
   grid-area: index_main_nav_ul_li-GD;
-  background-image: url(/src/img/graphic_design_index.png);
+  background-image: url(../img/graphic_design_index.png);
   height: 308px;
   width: 541px;
   background-position: center;
@@ -337,7 +337,7 @@ table {
   text-align: center;
 }
 .index_main_nav_ul_li_a_div_h3::after {
-  color: #E7816B;
+  color: #e7816b;
   font-weight: bold;
   content: "  >";
 }
@@ -423,7 +423,7 @@ table {
 .footer_article {
   position: relative;
   z-index: 1;
-  background-image: url(/src/img/deco_footer_top.png);
+  background-image: url(../img/deco_footer_top.png);
   margin: 0 auto -100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -722,7 +722,7 @@ table {
     height: 750px;
     width: 693px;
     border-radius: 15px;
-    background-image: url(/src/img/article_index_tablette.png);
+    background-image: url(../img/article_index_tablette.png);
     background-position: center;
     margin: 0 auto 120px;
     padding-top: 60px;
@@ -821,7 +821,7 @@ table {
 
   .index_main_nav_ul_li-WD {
     grid-area: index_main_nav_ul_li-WD;
-    background-image: url(/src/img/wd-graph-wppd-tabeltte.png);
+    background-image: url(../img/wd-graph-wppd-tabeltte.png);
     height: 200px;
     width: 689px;
     border-radius: 15px;
@@ -831,7 +831,7 @@ table {
 
   .index_main_nav_ul_li-AD {
     grid-area: index_main_nav_ul_li-AD;
-    background-image: url(/src/img/wd-app-design-tablette.png);
+    background-image: url(../img/wd-app-design-tablette.png);
     height: 200px;
     width: 689px;
     border-radius: 15px;
@@ -841,7 +841,7 @@ table {
 
   .index_main_nav_ul_li-GD {
     grid-area: index_main_nav_ul_li-GD;
-    background-image: url(/src/img/wd-graph-app-tablette.png);
+    background-image: url(../img/wd-graph-app-tablette.png);
     height: 200px;
     width: 689px;
     border-radius: 15px;
@@ -892,7 +892,7 @@ table {
     text-align: center;
   }
   .index_main_nav_ul_li_a_div_h3::after {
-    color: #E7816B;
+    color: #e7816b;
     font-weight: bold;
     content: "  >";
   }
@@ -987,7 +987,7 @@ table {
   .footer_article {
     position: relative;
     z-index: 1;
-    background-image: url(/src/img/deco_footer_top_tablette.png);
+    background-image: url(../img/deco_footer_top_tablette.png);
     border-radius: 15px;
     margin: 0 auto -200px;
     display: grid;
@@ -1212,7 +1212,8 @@ table {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  html, body {
+  html,
+body {
     overflow-x: hidden;
   }
 
@@ -1288,8 +1289,8 @@ table {
     width: 100vw;
     border-radius: 0px;
     padding-top: 80px;
-    background-image: url(/src/img/article_index_mobile.png);
-    background-color: #E7816B;
+    background-image: url(../img/article_index_mobile.png);
+    background-color: #e7816b;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1389,7 +1390,7 @@ table {
     grid-area: index_main_nav_ul_li-WD;
     justify-self: center;
     align-self: center;
-    background-image: url(/src/img/web_design_index_mobil.png);
+    background-image: url(../img/web_design_index_mobil.png);
     height: 250px;
     width: 327px;
     background-position: center;
@@ -1400,7 +1401,7 @@ table {
     grid-area: index_main_nav_ul_li-AD;
     justify-self: center;
     align-self: center;
-    background-image: url(/src/img/app_web_index_mobil.png);
+    background-image: url(../img/app_web_index_mobil.png);
     height: 250px;
     width: 327px;
     background-position: center;
@@ -1411,7 +1412,7 @@ table {
     grid-area: index_main_nav_ul_li-GD;
     justify-self: center;
     align-self: center;
-    background-image: url(/src/img/graphic_design_index_mobil.png);
+    background-image: url(../img/graphic_design_index_mobil.png);
     height: 250px;
     width: 327px;
     background-position: center;
@@ -1472,7 +1473,7 @@ table {
     text-align: center;
   }
   .index_main_nav_ul_li_a_div_h3::after {
-    color: #E7816B;
+    color: #e7816b;
     font-weight: bold;
     content: "  >";
   }
@@ -1581,7 +1582,7 @@ table {
   .footer_article {
     position: relative;
     z-index: 1;
-    background-image: url(/src/img/deco_footer_top_mobile.png);
+    background-image: url(../img/deco_footer_top_mobile.png);
     margin: 0 auto -200px;
     border-radius: 15px;
     display: grid;
@@ -3824,7 +3825,7 @@ table {
   height: 640px;
   width: 1111px;
   border-radius: 15px;
-  background-image: url(/src/img/article_index.png);
+  background-image: url(../img/article_index.png);
   background-position: center;
   margin: 0 auto 160px;
   display: -webkit-box;
@@ -3904,7 +3905,7 @@ table {
 
 .index_main_nav_ul_li-WD {
   grid-area: index_main_nav_ul_li-WD;
-  background-image: url(/src/img/web_design_index.png);
+  background-image: url(../img/web_design_index.png);
   height: 640px;
   width: 541px;
   background-position: center;
@@ -3913,7 +3914,7 @@ table {
 
 .index_main_nav_ul_li-AD {
   grid-area: index_main_nav_ul_li-AD;
-  background-image: url(/src/img/app_web_index.png);
+  background-image: url(../img/app_web_index.png);
   height: 308px;
   width: 541px;
   background-position: center;
@@ -3922,7 +3923,7 @@ table {
 
 .index_main_nav_ul_li-GD {
   grid-area: index_main_nav_ul_li-GD;
-  background-image: url(/src/img/graphic_design_index.png);
+  background-image: url(../img/graphic_design_index.png);
   height: 308px;
   width: 541px;
   background-position: center;
@@ -3972,7 +3973,7 @@ table {
   text-align: center;
 }
 .index_main_nav_ul_li_a_div_h3::after {
-  color: #E7816B;
+  color: #e7816b;
   font-weight: bold;
   content: "  >";
 }
@@ -4058,7 +4059,7 @@ table {
 .footer_article {
   position: relative;
   z-index: 1;
-  background-image: url(/src/img/deco_footer_top.png);
+  background-image: url(../img/deco_footer_top.png);
   margin: 0 auto -100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -4357,7 +4358,7 @@ table {
     height: 750px;
     width: 693px;
     border-radius: 15px;
-    background-image: url(/src/img/article_index_tablette.png);
+    background-image: url(../img/article_index_tablette.png);
     background-position: center;
     margin: 0 auto 120px;
     padding-top: 60px;
@@ -4456,7 +4457,7 @@ table {
 
   .index_main_nav_ul_li-WD {
     grid-area: index_main_nav_ul_li-WD;
-    background-image: url(/src/img/wd-graph-wppd-tabeltte.png);
+    background-image: url(../img/wd-graph-wppd-tabeltte.png);
     height: 200px;
     width: 689px;
     border-radius: 15px;
@@ -4466,7 +4467,7 @@ table {
 
   .index_main_nav_ul_li-AD {
     grid-area: index_main_nav_ul_li-AD;
-    background-image: url(/src/img/wd-app-design-tablette.png);
+    background-image: url(../img/wd-app-design-tablette.png);
     height: 200px;
     width: 689px;
     border-radius: 15px;
@@ -4476,7 +4477,7 @@ table {
 
   .index_main_nav_ul_li-GD {
     grid-area: index_main_nav_ul_li-GD;
-    background-image: url(/src/img/wd-graph-app-tablette.png);
+    background-image: url(../img/wd-graph-app-tablette.png);
     height: 200px;
     width: 689px;
     border-radius: 15px;
@@ -4527,7 +4528,7 @@ table {
     text-align: center;
   }
   .index_main_nav_ul_li_a_div_h3::after {
-    color: #E7816B;
+    color: #e7816b;
     font-weight: bold;
     content: "  >";
   }
@@ -4622,7 +4623,7 @@ table {
   .footer_article {
     position: relative;
     z-index: 1;
-    background-image: url(/src/img/deco_footer_top_tablette.png);
+    background-image: url(../img/deco_footer_top_tablette.png);
     border-radius: 15px;
     margin: 0 auto -200px;
     display: grid;
@@ -4847,7 +4848,8 @@ table {
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  html, body {
+  html,
+body {
     overflow-x: hidden;
   }
 
@@ -4923,8 +4925,8 @@ table {
     width: 100vw;
     border-radius: 0px;
     padding-top: 80px;
-    background-image: url(/src/img/article_index_mobile.png);
-    background-color: #E7816B;
+    background-image: url(../img/article_index_mobile.png);
+    background-color: #e7816b;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -5024,7 +5026,7 @@ table {
     grid-area: index_main_nav_ul_li-WD;
     justify-self: center;
     align-self: center;
-    background-image: url(/src/img/web_design_index_mobil.png);
+    background-image: url(../img/web_design_index_mobil.png);
     height: 250px;
     width: 327px;
     background-position: center;
@@ -5035,7 +5037,7 @@ table {
     grid-area: index_main_nav_ul_li-AD;
     justify-self: center;
     align-self: center;
-    background-image: url(/src/img/app_web_index_mobil.png);
+    background-image: url(../img/app_web_index_mobil.png);
     height: 250px;
     width: 327px;
     background-position: center;
@@ -5046,7 +5048,7 @@ table {
     grid-area: index_main_nav_ul_li-GD;
     justify-self: center;
     align-self: center;
-    background-image: url(/src/img/graphic_design_index_mobil.png);
+    background-image: url(../img/graphic_design_index_mobil.png);
     height: 250px;
     width: 327px;
     background-position: center;
@@ -5107,7 +5109,7 @@ table {
     text-align: center;
   }
   .index_main_nav_ul_li_a_div_h3::after {
-    color: #E7816B;
+    color: #e7816b;
     font-weight: bold;
     content: "  >";
   }
@@ -5216,7 +5218,7 @@ table {
   .footer_article {
     position: relative;
     z-index: 1;
-    background-image: url(/src/img/deco_footer_top_mobile.png);
+    background-image: url(../img/deco_footer_top_mobile.png);
     margin: 0 auto -200px;
     border-radius: 15px;
     display: grid;

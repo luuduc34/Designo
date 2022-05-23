@@ -76,11 +76,12 @@
 .wd_bloc_main_article_div_div_text:hover {
 	color: white;
 	background-color: $peach;
+	transition: 0.5s ease;
 }
 
 .wd_bloc_main_article_div_div_text:hover h3 {
 	color: white;
-	background-color: $peach;
+	transition: 0.5s ease;
 }
 
 .wd_bloc_main_article_div_div_text_p {
@@ -246,6 +247,7 @@
 	.wd_bloc_main_article_div_div_text:hover {
 		color: white;
 		background-color: $peach;
+		transition: 0.5s ease;
 	}
 
 	.wd_bloc_main_article_div_div_text_p {
@@ -425,6 +427,7 @@
 	.wd_bloc_main_article_div_div_text:hover {
 		color: white;
 		background-color: $peach;
+		transition: 0.5s ease;
 	}
 
 	.wd_bloc_main_article_div_div_text_p {

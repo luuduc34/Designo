@@ -2,6 +2,7 @@
 # Designo Website
 
 L'exercice Designo avait pour but de créer un site Web à partir d'un modèle.
+Il sera "responsive", adapté aux écrans desktop, tablette et mobile.
 
 
 ## Acknowledgements
